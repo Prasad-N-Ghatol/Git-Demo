@@ -1,0 +1,154 @@
+Git Demo Commands
+==================================================
+
+
+
+
+
+
+git --version
+
+git config --global user.name "Prasad-N-Ghatol"
+
+git config --global user.email "prasadnghatol@gmail.com"
+
+cat .gitconfig
+
+mkdir Git-Demo
+
+cd Git-Demo
+
+git init
+
+git status
+
+
+Setup :
+==================================================
+Step 1 :
+	- Download and install Git from "https://git-scm.com/", or run the command 
+	
+sudo apt-get install git
+	
+	- To update git to the latest version, run the following commands
+
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git -y
+
+
+
+Step 2 :
+	- To check the version of git, run the command
+
+git --version
+
+
+
+
+In the terminal give the following commands : (We will be using Github to clone from and push to the repository)
+==================================================
+Step 1 :
+	- Run the command to set the git details for you user.
+
+git config --global user.name "Prasad-N-Ghatol"
+
+git config --global user.email "user_email"
+
+	- You can see the details in the "gitconfig" by running the command
+
+cat .gitconfig
+
+
+
+Step 2 :
+	- Create a repository in Github named "Git-Demo", and then clone it onto your system by running the command
+
+git clone https://github.com/Prasad-N-Ghatol/Git-Demo.git
+
+	- Change directory to the Git-Demo directory, and run the command to initialize git, and can also check the status
+
+cd Git-Demo
+
+git init
+
+git status
+
+	- A --short version of status is also available
+	
+git status --short
+
+
+
+Step 3 :
+	- Now create files and make changes to the files in this directory. 
+
+	- After the required tasks are performed, perform "git status"
+	
+	- Now stage the changed files by running the command
+
+git add <file>				=> To add the files individually.
+
+	OR
+
+git add .					=> To add all the files.
+
+	OR
+
+git add --all				=> To add all the files.
+
+	OR
+
+git add -A					=> To add all the files (Shorthand for --all).
+
+	- To unstage the staged file run the command
+
+git rm --cached <file>
+
+
+
+Step 4 :
+	- 
+
+
+Step 5 :
+	-
+
+
+Step 6 :
+	-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
