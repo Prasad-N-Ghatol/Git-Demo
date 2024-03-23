@@ -147,11 +147,22 @@ git checkout a_new_branch
 
 
 Step 2 :
-	- 
+	- Add new files, modify some files, in this new branch
+	- After the files are added / modified, stage and then commit the changes to that branch
+	
+	- To merge the branch with the main branch, first change to the main branch and then merge the other branch, this can be done by running the following command
+	
+git checkout main
+
+git merge a_new_branch
+
+	- If needed, you can delete the new branch by running the command
+
+git branch -d a_new_branch
 
 
 Step 3 :
-	- 
+	- Now you can push the changes and also the new branch to the Github.
 
 
 Step 4 :
