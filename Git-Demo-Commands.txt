@@ -108,7 +108,13 @@ git rm --cached <file>
 
 
 Step 4 :
-	- 
+	- After the changes are staged, we can to commit the changes by running thr command
+
+git commit -m "The first version of Git-Demo !!"
+
+	- If needed we can also commit directly, without stages the changes first
+
+git commit -a -m "Direct commit without staging changes for Git-Demo"
 
 
 Step 5 :
