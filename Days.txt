@@ -1,0 +1,9 @@
+Days are :
+
+Monday
+Tuesday
+Wednesday
+Thrusday
+Friday
+Saturday
+Sunday

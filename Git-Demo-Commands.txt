@@ -127,3 +127,54 @@ git push
 	- After the push is complete, go to your Github Page, and refersh the page, to see the newly added files.
 
 
+
+
+Branch
+==================================================
+Step 1 :
+	- Create a new branch by running the command
+	
+git branch a_new_branch
+
+	- You can check which branches are available, by the command
+
+git branch
+
+	- Change to the new branch by the command
+
+git checkout a_new_branch
+
+
+
+Step 2 :
+	- 
+
+
+Step 3 :
+	- 
+
+
+Step 4 :
+	- 
+
+
+Step 5 :
+	- 
+
+
+Step 6 :
+	- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
